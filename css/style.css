@@ -1,0 +1,192 @@
+body{
+	background-color:#F1F1F1 ;
+	height: 1793px;
+}
+
+.container{
+	width: 1166px;
+	margin: 0 auto;
+		
+}
+
+nav{
+	background-color: #F1F1F1 ;
+	width: 100%;
+	height: 70px;
+	position: fixed;
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 700;
+	top: 0px;
+	z-index: 150;
+}
+
+ul{
+	display: flex;
+	align-items: center;
+	gap: 20px;
+    margin-top: 25px;
+}
+
+li{
+	list-style: none;
+}
+
+
+.container_2 > h1 {
+	font-family: Roboto;
+	font-size: 30px;
+	font-weight: 700;
+	margin-top: 100px;
+}
+
+
+
+.card-1{
+	margin-top: 40px;
+	width: 362px;
+	height: 357px;
+	display: inline-block;
+	margin-left:24px;
+	position: relative;
+	right: 22px;
+}
+
+.card-text-1 > h1{
+	font-family: Roboto;
+	font-size: 10px;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	gap: 9px;
+	position: absolute;
+	top: 115px;
+	left: 40px;
+}
+
+.card-text-1 > p{
+	position: absolute;
+	font-family: Roboto;
+	font-size: 12px;
+	font-weight: 700px;
+	top: 50px;
+	left: 35px;
+}
+
+.card-text-1{
+	background-color: white;
+	width: 362px;
+	height: 171px;
+	color: #8A8787;
+	position: relative;
+    top: 0px;
+    border-end-end-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+
+.card-photo-1{
+	position: relative;
+	top: 3px;
+}
+
+.card-photo-1 > h1{
+	position: absolute;
+	top: 30px;
+	left: 42px;
+	font-family: Roboto;
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+}
+
+.container_3{
+	position: relative;
+	top: 70px;
+}
+
+
+.container_3 > h1{
+	font-family: Roboto;
+	font-size: 24px;
+	font-weight: 800;
+    
+}
+
+.big_photos{
+	display: flex;
+	flex-direction: column;
+	align-items: baseline;
+	gap: 40px;
+	margin-top: 40px;
+}
+
+.first-photo > h2{
+	position: relative;
+	bottom: 226px;
+	left: 287px;
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: 700;
+	color: #fff;
+}
+
+.forest{
+	width: 362px;
+	height:212px;
+}
+
+.small_photos{
+	display: flex;
+	flex-direction: column;
+	align-items: baseline;
+	position: absolute;
+	left: 800px;
+	top: 63px;
+	gap: 85px;
+}
+
+
+footer{
+	margin-top: 115px;
+}
+
+.footer-div{
+	width: 100%;
+	height: 201px;
+	background-color: #243043;
+	position: relative;
+	font-family: Roboto;
+	display: flex;
+	align-items: center;
+	color: #818687;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 2;
+   
+}
+
+.footer-list-1{
+	margin-left: 110px;
+}
+
+.footer-list-2{
+	margin-left: 110px;
+}
+
+.footer-list-3{
+	margin-left: 110px;
+}
+
+.footer-div > p{
+	color: #FFF;
+	font-family: Roboto;
+	font-size: 15px;
+	margin-left: 120px;
+	margin-bottom: 90px;
+}
+
+.footer-div > img{
+	margin-left:320px;
+	margin-bottom: 50px;
+}
